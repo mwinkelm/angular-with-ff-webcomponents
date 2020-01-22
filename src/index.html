@@ -9,6 +9,27 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  
+<ff-communication
+    url="https://elkjop-ng.fact-finder.de/fact-finder/"
+    version="ng"
+    channel="commerce_b2c_OCDKELG"
+    default-query="*"
+    currency-country-code="da-DK"
+    currency-code="DKK"
+    disable-single-hit-redirect="true"
+    use-url-parameter="false"
+    mustache-delimiters="[[,]]"
+    search-immediate
+  >
   <app-root></app-root>
+  <script defer
+  src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/vendor/custom-elements-es5-adapter.js">
+</script>
+<script defer
+  src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/vendor/webcomponents-loader.js">
+</script>
+<script defer src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/bundle.js">
+</script>
 </body>
 </html>
