@@ -9,7 +9,17 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  
+
+<script defer
+        src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/vendor/custom-elements-es5-adapter.js">
+</script>
+<script defer
+        src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/vendor/webcomponents-loader.js">
+</script>
+<script defer src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/bundle.js">
+</script>
+
+
 <ff-communication
     url="https://elkjop-ng.fact-finder.de/fact-finder/"
     version="ng"
@@ -22,14 +32,8 @@
     mustache-delimiters="[[,]]"
     search-immediate
   >
+</ff-communication>
   <app-root></app-root>
-  <script defer
-  src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/vendor/custom-elements-es5-adapter.js">
-</script>
-<script defer
-  src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/vendor/webcomponents-loader.js">
-</script>
-<script defer src="https://cdn.jsdelivr.net/gh/FACT-Finder-Web-Components/ff-web-components@3.11.3/dist/bundle.js">
-</script>
+
 </body>
 </html>
