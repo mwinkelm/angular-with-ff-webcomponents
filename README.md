@@ -1,3 +1,8 @@
+This project demonstrates the problem with fact-finder and lazy loading modules.
+In case of lazy loading modules, the fact-finder component are not able to cope with  angular binding,
+In the app-routing-module you can switch (uncomment sope fragments of the code) the project from lazy to eager and observe how teh fact-finder components support angular binding
+
+
 # AngularWithFfWebcomponents
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
