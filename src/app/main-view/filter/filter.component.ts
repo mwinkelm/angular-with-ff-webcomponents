@@ -8,7 +8,7 @@ import {Component, ElementRef, OnInit, Renderer2, ViewChild} from '@angular/core
 export class FilterComponent implements OnInit {
 
 
-  public lang = 'en';
+  public variable = 'value of variable';
 
   public searchFor = 'Search for';
 

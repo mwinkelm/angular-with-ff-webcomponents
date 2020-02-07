@@ -1,17 +1,18 @@
-
 <ff-asn searchable-from="1">
   <ff-asn-group opened>
     <div slot="groupCaption" class="groupCaption">
+      <div
+        class="small">( the 'value of variable' should be displayed (angular binding))
+      </div>
+        VARIABLE VALUE: <strong>{{variable}}</strong>
       <p>
-        LANG: <strong>{{lang}}</strong>
-      </p>
-      <p>
-      GROUP NAME: [[group.name]]
+        GROUP NAME: [[group.name]]
       </p>
     </div>
-    <p slot="filterSearch">
-      <input class="filter-search__input" placeholder="{{searchFor}} [[group.name]]" />
-    </p>
+    <div slot="filterSearch">
+      <div class="small">(placeholder shoulds contains text: "Seaerch for 'category name' )</div>
+      <input class="filter-search__input" placeholder="{{searchFor}} [[group.name]]"/>
+    </div>
   </ff-asn-group>
 </ff-asn>
 
